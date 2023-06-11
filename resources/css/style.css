@@ -71,19 +71,32 @@ nav {
     font-size: 16px;
   }
 
-  .learn-more-button {
-    display: inline-block;
-    padding: 0.65rem 1.5rem;
-    text-decoration: none;
-    background-color: #B8BC7F;
-    color: #FEFFE9;
-    border-radius: 2rem;
-    transition: background-color 0.3s ease;
+.learn-more-button {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  background-color: #B8BC7F;
+  color: #FEFFE9;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
   }
   
-  .learn-more-button:hover {
-    background-color: #c5c89e;
-  }
+.learn-more-button:hover {
+  background-color: #c5c89e;
+}
+
+.learn-more-button2 {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  background-color: #FEFFE9;
+  color: #B8BC7F;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button2:hover {
+  background-color: #c5c89e;
 
 /* skills */
 .skills {
@@ -127,7 +140,10 @@ i {
 
 .project-content h3, p{
   text-align: center;
-  margin:0.3rem;
+}
+
+.project-content h3 {
+  margin-top: 1rem;
 }
 
 .project-img {
