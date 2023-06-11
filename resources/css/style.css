@@ -113,12 +113,21 @@ i {
   color: #FEFFE9;
 }
 
-.project-container {
+.projects-container {
   display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-content {
+  display:flex;
+  flex-direction: column;
+  width: 20rem;
 }
 
 .project-content h3, p{
   text-align: center;
+  margin:0.3rem;
 }
 
 .project-img {
