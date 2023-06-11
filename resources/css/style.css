@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'gopher';
+    src: url('../font/Gopher-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html {
+    height:100%;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    font-family: 'gopher', sans-serif;
+    box-sizing: border-box;
+    background-color: #FEFFE9;
+}
+
+nav {
+    background-color: #B8BC7F;
+    color: #FEFFE9;
+    margin:0;
+    padding:2.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 30px;
+    height: 2px;
+    background-color: #FEFFE9;
+    margin: 4px 0;
+  }
+
+.heading {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    font-size:1.5rem;
+    text-decoration: none;
+    color:#FEFFE9
+}
+
+/* profile */
+.profile {
+    display: flex;
+    margin: 2.5rem 2rem 0rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    color:#2E3105;
+}
+  
+  .profile-picture {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+  }
+  
+  .intro-paragraph {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .learn-more-button {
+    display: inline-block;
+    padding: 0.65rem 1.5rem;
+    text-decoration: none;
+    background-color: #B8BC7F;
+    color: #FEFFE9;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #c5c89e;
+  }
+
+/* skills */
+.skills {
+  margin: 2.5rem 2rem 0rem 2rem;
+  color: #2E3105;
+}
+
+.icons {
+  display:flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  
+}
+
+i {
+  padding: 0.8rem;
+}
+
+/* projects */
+.projects {
+  background-color:#B8BC7F;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.projects h1 {
+  color: #FEFFE9;
+}
+
+.project-container {
+  display:flex;
+}
+
+.project-content h3, p{
+  text-align: center;
+}
+
+.project-img {
+  width:20rem;
+  height:15rem;
+  object-fit: cover;
+  object-position: left top;
+  overflow: hidden;
+}
+
+/* footer */
+footer {
+    color: #B8BC7F;
+    padding:1rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer p {
+    flex-shrink: 0;
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-size: 0.5rem;
+}
+
+/* Responsive Menu: (375px) and up */
+@media (min-width: 375px) {
+    .desktop {
+        display:none;
+    }
+    .burger-menu {
+        display:none;
+    }
+
+  }
+  
+/* Responsive Menu: (414px) and up */
+  @media (min-width: 414px) {
+   
+
+  }
+  
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, $mq-lg and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {}
+
+/* Very Extra large devices (large desktops) */
+@media (min-width: 1380px) {}

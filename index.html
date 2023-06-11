@@ -2,91 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bruce Spaceship</title>
-  <link rel="stylesheet" href="./resources/css/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="icon" href="./resources/image/favicon (1).ico" type="image/x-icon">
+  <title>Bruce Skillfolio</title>
+  <link rel="icon" type="image/png" href="./resources/image/icon.png">
+  <link rel="stylesheet" href="./resources/css/style.css">
+  <script src="https://kit.fontawesome.com/f9b6900367.js" crossorigin="anonymous"></script>
 </head>
-
-<!-- note: first appear the words being Aurebesh, then it change to understandable Orbitron words after a click -->
-
 <body>
-  <!-- Navigation bar -->
+  <!-- navbar -->
+  <header>
     <nav>
-        <div class="left">
-            <img class="logo" src="./resources/image/Jedi-Symbol.png" />
-            <a href="#" class="home"><h1>hong io ip (bruce)</h1></a>
-        </div>
-        <div class="right">
-            <a href="#" class="split">Portfolio</a>
-            <a href="#" class="split">Skills</a>
-            <a href="#" class="split">About</a>
-            <a href="#" class="split">Contact</a>
-        </div>
+      <div class="hamburger-icon">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <a href="#" class="heading">Bruce Skillfolio</a>
     </nav>
+  </header>
 
-    
-  <!-- Main section -->
-  <main>
+  <!-- main -->
+  <div class="main">
+    <!-- personal profile -->
+    <div class="profile">
+      <img src="./resources/image/icon.png" alt="Profile Picture" class="profile-picture">
+      <div class="intro-paragraph">
+        <h4>Welcome! I am</p>
+        <h2>Hong Io Ip (Bruce)</h2>
+        <h3>A Full-Stack Developer with a passion for AI. </h4>
+        <p>I specialize in creating innovative web applications and have a keen interest in leveraging artificial intelligence to build intelligent solutions. <br><br>Let's shape the future together!</p>
+      </div>
+      <a href="#" class="learn-more-button">Learn More</a>
+    </div>
 
-    <h1 class="site-title">Welcome and Hello</h1>
-    <p> I am a Full Stack Developer, Traveller, Investment Passionate</p>
-  </main>
-  <aside>
-    <h5 class="codeforce">May the Code be with You</h5>
-  </aside>
-  <!-- About section -->
-  <!-- <section id="about"> -->
-    <!-- <h2>About Me</h2> -->
-    <!-- <img src="profile.jpg" alt="Profile picture"> -->
-    <!-- <p>I am a front-end developer with a passion for Star Wars. I love using my coding skills to create websites that are both beautiful and functional.</p> -->
-  <!-- </section> -->
+    <!-- skills -->
+    <div class="skills">
+      <h1>Skills</h1>
+      <div class="icons">
+        <i class='fab fa-python' style='font-size:48px;color:#B8BC7F' title="Python"></i>
+        <i class='fab fa-html5' style='font-size:48px;color:#B8BC7F' title="HTML5"></i>
+        <i class='fab fa-css3-alt' style='font-size:48px;color:#B8BC7F;' title="CSS3"></i>
+        <i class='fab fa-js-square' style='font-size:48px;color:#B8BC7F' title="JavaScript"></i>
+        <i class='fab fa-git' style='font-size:48px;color:#B8BC7F' title="Git"></i>
+        <i class='fab fa-github' style='font-size:48px;color:#B8BC7F' title="Github"></i>
+        <i class='fab fa-chrome' style='font-size:48px;color:#B8BC7F' title="Chrome"></i>
+      </div>
+    </div>
 
-  <!-- Portfolio section -->
-  <!-- <section id="portfolio"> -->
-    <!-- <h2>My Projects</h2> -->
-    <!-- <ul> -->
-      <!-- <li> -->
-        <!-- <img src="project1.jpg" alt="Project 1 screenshot"> -->
-        <!-- <h3>Project 1</h3> -->
-        <!-- <p>Description of Project 1</p> -->
-        <!-- <a href="#">View Project</a> -->
-      <!-- </li> -->
-      <!-- <li> -->
-        <!-- <img src="project2.jpg" alt="Project 2 screenshot"> -->
-        <!-- <h3>Project 2</h3> -->
-        <!-- <p>Description of Project 2</p> -->
-        <!-- <a href="#">View Project</a> -->
-      <!-- </li> -->
-      <!-- <li> -->
-        <!-- <img src="project3.jpg" alt="Project 3 screenshot"> -->
-        <!-- <h3>Project 3</h3> -->
-        <!-- <p>Description of Project 3</p> -->
-        <!-- <a href="#">View Project</a> -->
-      <!-- </li> -->
-    <!-- </ul> -->
-  <!-- </section> -->
+    <!-- projects -->
+    <div class="projects">
+      <h1>Projects</h1>
+      <div class="projects-container">
+        <!-- terminal game -->
+        <div class="project-content">
+          <img class='project-img' src="./resources/image/BlackJack-Python-Capture2.PNG">
+          <h3>BlackJack on Terminal</p>
+          <h3>&ltcode&gt</p>
+        </div>
 
-  <!-- Contact section -->
-  <!-- <section id="contact"> -->
-    <!-- <h2>Contact Me</h2> -->
-    <!-- <form> -->
-      <!-- <label for="name">Name:</label> -->
-      <!-- <input type="text" id="name" name="name"> -->
-      <!-- <label for="email">Email:</label> -->
-      <!-- <input type="email" id="email" name="email"> -->
-      <!-- <label for="message">Message:</label> -->
-      <!-- <textarea id="message" name="message"></textarea> -->
-      <!-- <button type="submit">Send Message</button> -->
-    <!-- </form> -->
-  <!-- </section> -->
+        <!-- recommdation search -->
+        <!-- techGenius -->
+        <div class="project-content">
+          <img class='project-img' src="./resources/image/techgenius- capture.PNG">
+          <h3>TechGenius Business Solution</p>
+          <h3>&ltcode&gt</p>
+        </div>
+        <!-- seido baseball club -->
+        <div class="project-content">
+          <img class='project-img' src="./resources/image/seido-capture.PNG">
+          <h3>Seido Baseball Club</p>
+          <h3>&ltcode&gt</p>
+        </div>
 
-  <!-- Footer section -->
-  <footer>
-    <p>&copy; Hong Io Ip (Bruce) 2023</p>
-  </footer>
+        <!-- Fotomatic -->
+        <!-- teacozy -->
+        <!-- website design style guide -->
+
+      </div>
+    </div>
+  </div>
 </body>
+<footer>
+  <p>&copy; Hong Io Ip (Bruce) 2023</p>
+</footer>
 </html>
