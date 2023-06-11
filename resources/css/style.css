@@ -85,24 +85,13 @@ nav {
   background-color: #c5c89e;
 }
 
-.learn-more-button2 {
-  display: inline-block;
-  padding: 0.65rem 1.5rem;
-  text-decoration: none;
-  background-color: #FEFFE9;
-  color: #B8BC7F;
-  border-radius: 2rem;
-  transition: background-color 0.3s ease;
-}
 
-.learn-more-button2:hover {
-  background-color: #c5c89e;
-}
 
 /* skills */
 .skills {
   margin: 2.5rem 2rem 0rem 2rem;
   color: #2E3105;
+  text-align: center;
 }
 
 .icons {
@@ -121,6 +110,7 @@ i {
 .projects {
   background-color:#B8BC7F;
   padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
 }
 
 .projects h1 {
@@ -139,12 +129,18 @@ i {
   width: 20rem;
 }
 
-.project-content h3, p{
+.project-content h3 {
   text-align: center;
+  margin:0;
+  padding:0;
 }
 
-.project-content h3 {
+.project-content h3.line1 {
   margin-top: 1rem;
+}
+
+.project-content h3.line2 {
+  margin-bottom: 1rem;
 }
 
 .project-img {
@@ -153,6 +149,21 @@ i {
   object-fit: cover;
   object-position: left top;
   overflow: hidden;
+}
+
+.learn-more-button2 {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  background-color: #FEFFE9;
+  color: #B8BC7F;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.learn-more-button2:hover {
+  background-color: #c5c89e;
 }
 
 /* footer */
