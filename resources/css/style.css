@@ -39,7 +39,7 @@ nav {
   z-index: 10;
   overflow: hidden;
   transition: width 0.5s ease;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -53,10 +53,14 @@ nav {
   color: #2E3105;
   transition: 0.3s;
   white-space: nowrap;
+  width:100%;
+  text-align: center;
 }
 
-.menu a:hover {
-  color: #4a4f0d;
+.menu a:active {
+  background-color: #fbf9d6;
+  font-size:2.2rem;
+  transition: font-size .1s ease-in-out;
 }
 
 .menu .menu-header {
@@ -236,6 +240,10 @@ i {
 }
 
 /* contact */
+.contact {
+  margin: 2.5rem 2rem 2rem 2rem;
+}
+
 .contact h1 {
   color:#2E3105;
   text-align: center;
@@ -245,31 +253,24 @@ i {
 /* footer */
 footer {
     color: #B8BC7F;
-    padding:1rem;
+    padding:1rem; 
     bottom: 0;
-    left: 0;
-    width: 100%;
+    width: 99%;
     text-align: center;
-
 }
 
-footer p {
-    flex-shrink: 0;
-    text-align: center;
-    margin:0;
-    padding:0;
-    font-size: 0.5rem;
-}
+  footer p {
+      text-align: center;
+      margin:0;
+      padding:0; 
+      font-size: 0.5rem;
+  }
 
 /* Responsive Menu: (375px) and up */
 @media (min-width: 375px) {
-    .desktop {
-        display:none;
+    .desktop-menu-container {
+      display:none;
     }
-    .burger-menu {
-        display:none;
-    }
-
   }
   
 /* Responsive Menu: (414px) and up */
@@ -283,10 +284,45 @@ footer p {
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  
+}
 
 /* Large devices (desktops, $mq-lg and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .menu, .hamburger-icon {
+    display: none;
+  }
+
+  nav {
+    padding:0;
+  }
+
+  .heading {
+    text-align: left;
+    font-size: 2rem;
+    padding-left:2rem;
+  }
+
+  .desktop-menu-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-right: 2rem; 
+  }
+
+  .desktop-menu-container a {
+    padding:2rem 1rem;
+    text-decoration: none;
+    color: #FEFFE9;
+    font-size: 1.3rem;
+
+  }
+
+  nav .desktop-menu-container a:hover {
+    background-color: #c5c89e;
+  }
+}
 
 /* Extra large devices (large desktops) */
 @media (min-width: 1200px) {}
