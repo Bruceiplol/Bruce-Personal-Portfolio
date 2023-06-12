@@ -307,6 +307,10 @@ footer p {
   .desktop-menu-container {
     display:none;
   }
+
+  a.heading {  
+    padding-right:30px;
+  }
 }
 
 /* Responsive Menu: (414px) and up */
