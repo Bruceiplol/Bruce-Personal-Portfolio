@@ -111,8 +111,6 @@ nav {
     position:fixed;
   }
   
-  
-
   .heading {
       margin: 0;
       flex-grow: 1;
@@ -180,7 +178,7 @@ i {
 /* projects */
 .projects {
   background-color:#B8BC7F;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 2rem 2rem;
   text-align: center;
 }
 
@@ -236,6 +234,13 @@ i {
 .learn-more-button2:hover {
   background-color: #ffffff;
 }
+
+/* contact */
+.contact h1 {
+  color:#2E3105;
+  text-align: center;
+}
+
 
 /* footer */
 footer {
